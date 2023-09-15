@@ -1,4 +1,4 @@
-ul
+lu
 {
 background-color: blue ;
 padding: 0.3cm;
@@ -9,10 +9,13 @@ li
 display: inline;
 text-align: left;
 padding: 0.2cm;
+
 }
+
+
 li a 
 {
-    color: white;
+    color: black;
 }
  
 
@@ -22,6 +25,7 @@ li a
 border: 3px solid blue;
 margin-bottom: 5px ;
 padding: 8px;
+
 }
 
 #About {
@@ -37,6 +41,8 @@ padding: 8px;
     margin-bottom: 5px ;
 padding: 8px;
 }
+
+
 p
 {
     
@@ -45,6 +51,9 @@ font-size: 20px;
 text-align-last: auto;
 
 }
+
+
+
 h2 + p 
 {
     text-indent: 50px;
@@ -66,6 +75,6 @@ iframe{
 }
 a:hover 
 {
-color: red;
+color: green;
 }
 
