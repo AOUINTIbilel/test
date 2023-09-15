@@ -1,0 +1,71 @@
+ul
+{
+background-color: blue ;
+padding: 0.3cm;
+}
+
+li
+{
+display: inline;
+text-align: left;
+padding: 0.2cm;
+}
+li a 
+{
+    color: white;
+}
+ 
+
+
+
+#home {
+border: 3px solid blue;
+margin-bottom: 5px ;
+padding: 8px;
+}
+
+#About {
+    border: 3px solid blue;
+    margin-bottom: 5px ;
+padding: 8px;
+}
+    
+
+
+#Work
+{border: 3px solid blue;
+    margin-bottom: 5px ;
+padding: 8px;
+}
+p
+{
+    
+font-style: italic ;
+font-size: 20px;
+text-align-last: auto;
+
+}
+h2 + p 
+{
+    text-indent: 50px;
+
+}
+h1
+{
+font-style: oblique;
+color: red;
+}
+img{
+    display: block;
+    margin: 0px auto;
+   }
+iframe{
+    display: block;
+    margin: 0px auto;
+
+}
+a:hover 
+{
+color: red;
+}
+
