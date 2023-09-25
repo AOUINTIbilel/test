@@ -1,0 +1,15 @@
+ALGORITHM checkpoint
+VAR
+    cpt : INTEGER ;
+    CHAR = 'c';
+    
+BEGIN
+cpt <-0;
+read (c);
+    while(c # '.')
+    IF (c='e') THEN
+        cpt <- cpt+1;
+    END_IF
+    read (c);
+    write (cpt)
+END
