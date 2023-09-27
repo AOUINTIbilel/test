@@ -1,0 +1,21 @@
+ALGORITHM SENTENCE
+VAR
+phr := "chek point."
+nbr_v := 0;
+nbr_mot := 0; 
+nb_car :=0; 
+i := 0;
+BEGIN
+FOR i FROM 0 phr.lenght -1 step 1 DO
+IF (phr[i] = "a" OR phr[i] = "e" OR phr[i] = "i" OR phr[i] = "o") THEN
+nbr_v = nbr_v +1 
+END_IF
+IF (phr[i] = " ")THEN
+nbr_mot := nbr_mot+1 
+END_IF
+nb_car := nb_car + 1; 
+END_FOR
+write ("number voy = " , nbr_v)
+write ("number word = " , nbr_mot +1)
+write("number char = " , nb_car)
+END
